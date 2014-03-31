@@ -7,7 +7,7 @@ set viminfo='1000,f1,\"500,!
 set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,utf-8,ucs2le,ucs-2
+set fileencodings=utf-8,sjis,shift-jis,euc-jp,utf-16,ascii,ucs-bom,cp932,iso-2022-jp
 set expandtab
 set shiftwidth=2
 set softtabstop=2
