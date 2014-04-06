@@ -20,6 +20,8 @@ set noswapfile
 set cursorline
 set t_Co=256
 
+set mouse=a
+
 set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 
@@ -66,8 +68,6 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Markdown'
-NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'elzr/vim-json'
@@ -76,6 +76,7 @@ NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'csscomb/vim-csscomb'
+NeoBundle 'basyura/unite-rails'
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
