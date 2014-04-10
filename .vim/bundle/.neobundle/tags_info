@@ -8,6 +8,7 @@ unite-colorscheme
 unite-rails
 unite.vim
 vim-coffee-script
+vim-css-color
 vim-csscomb
 vim-endwise
 vim-indent-guides

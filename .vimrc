@@ -77,6 +77,7 @@ NeoBundle 'wavded/vim-stylus'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'csscomb/vim-csscomb'
 NeoBundle 'basyura/unite-rails'
+NeoBundle 'skammer/vim-css-color'
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
