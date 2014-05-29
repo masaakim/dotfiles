@@ -67,6 +67,7 @@ NeoBundle 'myhere/vim-nodejs-complete'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'jpo/vim-railscasts-theme'
+NeoBundle 'zenorocha/dracula-theme'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'kchmck/vim-coffee-script'
@@ -77,7 +78,7 @@ NeoBundle 'wavded/vim-stylus'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'csscomb/vim-csscomb'
 NeoBundle 'basyura/unite-rails'
-NeoBundle 'skammer/vim-css-color'
+NeoBundle 'kana/vim-submode'
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
@@ -86,6 +87,18 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven  ctermbg=140
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 
+" submode.vim
+" http://d.hatena.ne.jp/thinca/20130131/1359567419
+" ウィンドウサイズの変更キーを簡易化する
+" [C-w],[+]または、[C-w],[-]
+call submode#enter_with('winsize', 'n', '', '<C-w>>', '<C-w>>')
+call submode#enter_with('winsize', 'n', '', '<C-w><', '<C-w><')
+call submode#enter_with('winsize', 'n', '', '<C-w>+', '<C-w>-')
+call submode#enter_with('winsize', 'n', '', '<C-w>-', '<C-w>+')
+call submode#map('winsize', 'n', '', '>', '<C-w>>')
+call submode#map('winsize', 'n', '', '<', '<C-w><')
+call submode#map('winsize', 'n', '', '+', '<C-w>-')
+call submode#map('winsize', 'n', '', '-', '<C-w>+')
 
 " vim$B$K(Bcoffee$B%U%!%$%k%?%$%W$rG'<1$5$;$k(B
 au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
@@ -113,4 +126,3 @@ set rtp+=/usr/local/go/misc/vim
 
 filetype plugin indent on
 filetype indent on
-syntax on

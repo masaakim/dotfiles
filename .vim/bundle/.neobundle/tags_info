@@ -1,3 +1,4 @@
+dracula-theme
 neobundle.vim
 neocomplcache
 neosnippet
@@ -8,7 +9,6 @@ unite-colorscheme
 unite-rails
 unite.vim
 vim-coffee-script
-vim-css-color
 vim-csscomb
 vim-endwise
 vim-indent-guides
@@ -20,5 +20,6 @@ vim-rails
 vim-railscasts-theme
 vim-slime
 vim-stylus
+vim-submode
 vimproc
 vimshell
