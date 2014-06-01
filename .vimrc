@@ -25,6 +25,9 @@ set mouse=a
 set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 
+autocmd! FileType javascript setlocal shiftwidth=4 tabstop=4 softtabstop=4
+autocmd! FileType php setlocal shiftwidth=4 tabstop=4 softtabstop=4
+
 let g:netrw_liststyle = 3
 
 map j gj
