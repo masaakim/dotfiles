@@ -82,6 +82,7 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'csscomb/vim-csscomb'
 NeoBundle 'basyura/unite-rails'
 NeoBundle 'kana/vim-submode'
+NeoBundle 'altercation/vim-colors-solarized'
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
@@ -122,7 +123,8 @@ nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 
 let g:vim_json_syntax_conceal = 0
 
-colorscheme railscasts
+set background=dark
+colorscheme solarized
 
 " golang
 set rtp+=/usr/local/go/misc/vim
