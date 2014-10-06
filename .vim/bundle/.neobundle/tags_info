@@ -1,9 +1,11 @@
 dracula-theme
+emmet-vim
 neobundle.vim
 neocomplcache
 neosnippet
 neosnippet-snippets
 nerdtree
+rust.vim
 syntastic
 unite-colorscheme
 unite-rails

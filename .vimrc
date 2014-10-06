@@ -83,6 +83,21 @@ NeoBundle 'csscomb/vim-csscomb'
 NeoBundle 'basyura/unite-rails'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'wting/rust.vim'
+NeoBundle 'Shougo/neocomplcache'
+
+" neocomplcache {{{
+let g:neocomplcache_enable_at_startup = 1
+" ポップアップメニューで表示される候補の数
+let g:neocomplcache_max_list = 1000
+" 補完検索時に大文字・小文字を無視する
+let g:neocomplcache_enable_ignore_case= 1
+" 大文字が入力されている場合、大文字・小文字を区別する
+let g:neocomplcache_enable_smart_case = 1
+
+" emmet-vim key bind
+" let g:user_emmet_leader_key='<c-t>'
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
@@ -123,8 +138,8 @@ nmap <silent><Leader>ig <Plug>IndentGuidesToggle
 
 let g:vim_json_syntax_conceal = 0
 
-set background=dark
-colorscheme solarized
+"set background=dark
+colorscheme railscasts
 
 " golang
 set rtp+=/usr/local/go/misc/vim
