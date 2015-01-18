@@ -72,13 +72,11 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'zenorocha/dracula-theme'
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
-NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'csscomb/vim-csscomb'
 NeoBundle 'basyura/unite-rails'
 NeoBundle 'kana/vim-submode'
@@ -86,6 +84,8 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'wting/rust.vim'
 NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'editorconfig/editorconfig-vim'
 
 " neocomplcache {{{
 let g:neocomplcache_enable_at_startup = 1
@@ -101,8 +101,8 @@ let g:neocomplcache_enable_smart_case = 1
 
 " vim-indent-guides
 let g:indent_guides_auto_colors=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd   ctermbg=110
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven  ctermbg=140
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd   ctermbg=246
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven  ctermbg=241
 let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_guide_size=1
 

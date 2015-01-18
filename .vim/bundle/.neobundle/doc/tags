@@ -73,6 +73,7 @@
 'syntastic_style_error_symbol'	syntastic.txt	/*'syntastic_style_error_symbol'*
 'syntastic_style_warning_symbol'	syntastic.txt	/*'syntastic_style_warning_symbol'*
 'syntastic_warning_symbol'	syntastic.txt	/*'syntastic_warning_symbol'*
+:EditorConfigReload	editorconfig.txt	/*:EditorConfigReload*
 :Errors	syntastic.txt	/*:Errors*
 :IndentGuidesDisable	indent_guides.txt	/*:IndentGuidesDisable*
 :IndentGuidesEnable	indent_guides.txt	/*:IndentGuidesEnable*
@@ -258,6 +259,7 @@
 <c-c>v	vim-slime.txt	/*<c-c>v*
 CTRL-C_CTRL-C	vim-slime.txt	/*CTRL-C_CTRL-C*
 CTRL-C_v	vim-slime.txt	/*CTRL-C_v*
+EditorConfig#AddNewHook()	editorconfig.txt	/*EditorConfig#AddNewHook()*
 NERDTree	NERD_tree.txt	/*NERDTree*
 NERDTree-?	NERD_tree.txt	/*NERDTree-?*
 NERDTree-A	NERD_tree.txt	/*NERDTree-A*
@@ -329,6 +331,14 @@ csscomb-install	csscomb.txt	/*csscomb-install*
 csscomb-usage	csscomb.txt	/*csscomb-usage*
 csscomb.txt	csscomb.txt	/*csscomb.txt*
 dictionary_complete	neocomplcache.txt	/*dictionary_complete*
+editorconfig-advanced	editorconfig.txt	/*editorconfig-advanced*
+editorconfig-commands	editorconfig.txt	/*editorconfig-commands*
+editorconfig-contents	editorconfig.txt	/*editorconfig-contents*
+editorconfig-hook	editorconfig.txt	/*editorconfig-hook*
+editorconfig-installation	editorconfig.txt	/*editorconfig-installation*
+editorconfig-overview	editorconfig.txt	/*editorconfig-overview*
+editorconfig-settings	editorconfig.txt	/*editorconfig-settings*
+editorconfig.txt	editorconfig.txt	/*editorconfig.txt*
 emmet	emmet.txt	/*emmet*
 emmet-balance-tag-inward	emmet.txt	/*emmet-balance-tag-inward*
 emmet-balance-tag-outward	emmet.txt	/*emmet-balance-tag-outward*
@@ -361,6 +371,10 @@ filename_complete	neocomplcache.txt	/*filename_complete*
 filename_include	neocomplcache.txt	/*filename_include*
 filter-overrides	syntastic.txt	/*filter-overrides*
 ft-rust	rust.txt	/*ft-rust*
+g:EditorConfig_core_mode	editorconfig.txt	/*g:EditorConfig_core_mode*
+g:EditorConfig_exec_path	editorconfig.txt	/*g:EditorConfig_exec_path*
+g:EditorConfig_python_files_dir	editorconfig.txt	/*g:EditorConfig_python_files_dir*
+g:EditorConfig_verbose	editorconfig.txt	/*g:EditorConfig_verbose*
 g:ftplugin_rust_source_path	rust.txt	/*g:ftplugin_rust_source_path*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
 g:neobundle#default_site	neobundle.txt	/*g:neobundle#default_site*
