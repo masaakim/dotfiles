@@ -39,15 +39,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/morishitter/./dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/morishitter/.vim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/morishitter/./dein')
-  call dein#begin('/Users/morishitter/./dein')
+if dein#load_state('/Users/morishitter/.vim/dein')
+  call dein#begin('/Users/morishitter/.vim/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/morishitter/./dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('/Users/morishitter/.vim/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/unite.vim')
@@ -82,6 +82,6 @@ endif
 
 "End dein Scripts-------------------------
 
-set background=dark
-colorscheme solarized
+colorscheme tomorrow-night
+autocmd BufWritePre * :FixWhitespace
 autocmd BufWritePre * :FixWhitespace
